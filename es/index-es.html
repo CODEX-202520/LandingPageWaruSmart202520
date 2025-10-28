@@ -27,583 +27,598 @@
 
 
 <body>
-<!-- Topbar Start -->
-<div class="container-fluid bg-light pt-3 d-none d-lg-block">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 d-flex justify-content-end">
-                <div class="language-switch">
-                    <div class="language-switch-wrapper d-none d-lg-block">
-                        <div class="container d-flex justify-content-end pr-5 pt-2">
-                            <button id="language-toggle" class="toggle-btn">
-                                <span id="lang-label">Español</span>
-                            </button>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-end">
+                    <div class="language-switch">
+                        <div class="language-switch-wrapper d-none d-lg-block">
+                            <div class="container d-flex justify-content-end pr-5 pt-2">
+                                <button id="language-toggle" class="toggle-btn">
+                                    <span id="lang-label">Español</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Topbar End -->
+    <!-- Topbar End -->
 
 
-<!-- Navbar Start -->
-<div class="container-fluid position-relative nav-bar p-0">
-    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-        <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-            <a href="" class="navbar-brand">
-                <h1 class="m-0 text-primary"><span class="text-dark">WARU</span>SMART</h1>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-dark">WARU</span>SMART</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index-es.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="#about" class="nav-item nav-link">Acerca</a>
+                        <a href="cooperative-es.html" class="nav-item nav-link">Cooperativas</a>
+                        <a href="#plans" class="nav-item nav-link">Planes</a>
+                        <a href="#team" class="nav-item nav-link">Equipo</a>
+                        <a href="contact-es.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+
+                    <div class="d-flex align-items-center ml-3">
+                        <a href="https://warusmart.netlify.app/sign-in"
+                            class="btn btn-outline-success btn-sm mr-2">Iniciar Sesión</a>
+                        <a href="https://warusmart.netlify.app/sign-up" class="btn btn-success btn-sm">Registrarse</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="../img/image-banner-1.jpg" alt="Imagen">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Waru & Smart</h4>
+                            <h1 class="display-3 text-white mb-md-4">Optimiza tus cultivos con nuestra plataforma de
+                                riego inteligente</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="../img/image-banner-2.jpg" alt="Imagen">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Waru & Smart</h4>
+                            <h1 class="display-3 text-white mb-md-4">Mejora tus cultivos usando nuestra plataforma de
+                                riego inteligente</h1>
+                            <a href="https://warusmart.netlify.app/sign-up"
+                                class="btn btn-primary py-md-3 px-md-5 mt-2">Comenzar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
             </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                <div class="navbar-nav ml-auto py-0">
-                    <a href="index-es.html" class="nav-item nav-link active">Inicio</a>
-                    <a href="#about" class="nav-item nav-link">Acerca</a>
-                    <a href="cooperative-es.html" class="nav-item nav-link">Cooperativas</a>
-                    <a href="#plans" class="nav-item nav-link">Planes</a>
-                    <a href="#team" class="nav-item nav-link">Equipo</a>
-                    <a href="contact-es.html" class="nav-item nav-link">Contacto</a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
                 </div>
-
-                <div class="d-flex align-items-center ml-3">
-                    <a href="https://warusmart.netlify.app/sign-in" class="btn btn-outline-success btn-sm mr-2">Iniciar Sesión</a>
-                    <a href="https://warusmart.netlify.app/sign-up" class="btn btn-success btn-sm">Registrarse</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
-<!-- Navbar End -->
-
-
-<!-- Carousel Start -->
-<div class="container-fluid p-0">
-    <div id="header-carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="../img/image-banner-1.jpg" alt="Imagen">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-md-3">Waru & Smart</h4>
-                        <h1 class="display-3 text-white mb-md-4">Optimiza tus cultivos con nuestra plataforma de riego inteligente</h1>
-                        <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Comenzar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="w-100" src="../img/image-banner-2.jpg" alt="Imagen">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-md-3">Waru & Smart</h4>
-                        <h1 class="display-3 text-white mb-md-4">Mejora tus cultivos usando nuestra plataforma de riego inteligente</h1>
-                        <a href="https://warusmart.netlify.app/sign-up" class="btn btn-primary py-md-3 px-md-5 mt-2">Comenzar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                <span class="carousel-control-prev-icon mb-n2"></span>
-            </div>
-        </a>
-        <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                <span class="carousel-control-next-icon mb-n2"></span>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- Carousel End -->
-
-
-
-<!-- Booking Start -->
-<div class="container-fluid booking mt-5 pb-5">
-    <div class="container pb-5">
-        <div class="bg-light shadow" style="padding: 30px;">
-            <div class="row align-items-center" style="min-height: 60px;">
-                <div class="col-md-10">
-                </div>
-            </div>
+            </a>
         </div>
     </div>
-</div>
-<!-- Booking End -->
+    <!-- Carousel End -->
 
 
-<!-- About Start -->
-<div class="container-fluid py-5" id="about">
-    <div class="container pt-5">
-        <div class="row">
-            <div class="col-lg-6" style="min-height: 500px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="../img/image-about-1.jpg" style="object-fit: cover;">
-                </div>
-            </div>
-            <div class="col-lg-6 pt-5 pb-lg-5">
-                <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre Nosotros</h6>
-                    <h1 class="mb-3">Impulsando la Agricultura Inteligente para un Crecimiento Sostenible</h1>
-                    <p>En WaruSmart, ayudamos a los agricultores a optimizar la producción de cultivos mediante soluciones de riego inteligente y monitoreo en tiempo real. Nuestra plataforma permite una gestión eficiente del agua, reduce el desperdicio y mejora la productividad, todo al alcance de tu mano.</p>
-                    <div class="row mb-4">
-                        <div class="col-6">
-                            <img class="img-fluid" src="../img/image-about-2.jpg" alt="">
-                        </div>
-                        <div class="col-6">
-                            <img class="img-fluid" src="../img/image-about-3.jpg" alt="">
-                        </div>
-                    </div>
-                    <a href="https://warusmart.netlify.app/sign-up" class="btn btn-primary mt-1">Comenzar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- About End -->
 
-
-<!-- Feature Start -->
-<div class="container-fluid pb-5">
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="d-flex mb-4 mb-lg-0">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-money-check-alt text-white"></i>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <h5 class="">🌱 Tecnología Accesible</h5>
-                        <p class="m-0">Ofrecemos herramientas de agricultura inteligente a precios accesibles, asegurando que pequeños y medianos agricultores se beneficien de la innovación.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="d-flex mb-4 mb-lg-0">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-award text-white"></i>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <h5 class="">⚙️ Rendimiento Confiable</h5>
-                        <p class="m-0">Nuestros sistemas de riego y monitoreo están diseñados para ser duraderos, eficientes y fáciles de usar en cualquier entorno.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="d-flex mb-4 mb-lg-0">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-globe text-white"></i>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <h5 class="">🌍 Alcance Rural</h5>
-                        <p class="m-0">Diseñada para zonas remotas y rurales, nuestra plataforma funciona incluso en áreas de baja conectividad para empoderar a más comunidades.</p>
+    <!-- Booking Start -->
+    <div class="container-fluid booking mt-5 pb-5">
+        <div class="container pb-5">
+            <div class="bg-light shadow" style="padding: 30px;">
+                <div class="row align-items-center" style="min-height: 60px;">
+                    <div class="col-md-10">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Feature End -->
+    <!-- Booking End -->
 
 
-<!-- Blog Start -->
-<div class="container-fluid py-5" id="product">
-    <div class="container pt-5 pb-3">
-        <div class="text-center mb-3 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">VIDEOS</h6>
-            <h1>Sobre el Producto</h1>
-            <p class="text-muted">Descubre los componentes del proyecto WaruSmart: desde nuestro sistema de sensores IoT hasta las aplicaciones móviles y web que lo integran.</p>
-        </div>
-        <div class="row pb-3">
-            <!-- Plataforma Web -->
-            <div class="col-lg-4 col-md-6 mb-4 pb-2">
-                <div class="blog-item">
-                    <div class="position-relative">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item w-100"
-                                    src="https://www.youtube.com/embed/fYHt7Ylf2pE?start=1"
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="blog-date">
-                            <h6 class="font-weight-bold mb-n1">01</h6>
-                            <small class="text-white text-uppercase"></small>
-                        </div>
-                    </div>
-                    <div class="bg-white p-4">
-                        <div class="d-flex mb-2">
-                            <span class="text-primary text-uppercase">WaruSmart</span>
-                        </div>
-                        <h5 class="m-0">Panel Web de Monitoreo</h5>
-                        <p class="mt-2 mb-0 small">Accede a datos en tiempo real, controla los sistemas de riego de forma remota y gestiona el cultivo desde nuestra plataforma web intuitiva.</p>
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="../img/image-about-1.jpg"
+                            style="object-fit: cover;">
                     </div>
                 </div>
-            </div>
-            <!-- Aplicación Móvil -->
-            <div class="col-lg-4 col-md-6 mb-4 pb-2">
-                <div class="blog-item">
-                    <div class="position-relative">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item w-100"
-                                    src="https://www.youtube.com/embed/fYHt7Ylf2pE?start=197"
-                                    allowfullscreen>
-                            </iframe>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre Nosotros</h6>
+                        <h1 class="mb-3">Impulsando la Agricultura Inteligente para un Crecimiento Sostenible</h1>
+                        <p>En WaruSmart, ayudamos a los agricultores a optimizar la producción de cultivos mediante
+                            soluciones de riego inteligente y monitoreo en tiempo real. Nuestra plataforma permite una
+                            gestión eficiente del agua, reduce el desperdicio y mejora la productividad, todo al alcance
+                            de tu mano.</p>
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <img class="img-fluid" src="../img/image-about-2.jpg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img class="img-fluid" src="../img/image-about-3.jpg" alt="">
+                            </div>
                         </div>
-                        <div class="blog-date">
-                            <h6 class="font-weight-bold mb-n1">02</h6>
-                            <small class="text-white text-uppercase"></small>
-                        </div>
-                    </div>
-                    <div class="bg-white p-4">
-                        <div class="d-flex mb-2">
-                            <span class="text-primary text-uppercase">WaruSmart</span>
-                        </div>
-                        <h5 class="m-0">Aplicación Móvil</h5>
-                        <p class="mt-2 mb-0 small">Recibe alertas, consulta datos del suelo y humedad, y controla el riego desde tu celular — estés donde estés.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Sistema de Hardware IoT -->
-            <div class="col-lg-4 col-md-6 mb-4 pb-2">
-                <div class="blog-item">
-                    <div class="position-relative">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item w-100"
-                                    src="https://www.youtube.com/embed/fYHt7Ylf2pE?start=378"
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="blog-date">
-                            <h6 class="font-weight-bold mb-n1">03</h6>
-                            <small class="text-white text-uppercase"></small>
-                        </div>
-                    </div>
-                    <div class="bg-white p-4">
-                        <div class="d-flex mb-2">
-                            <span class="text-primary text-uppercase">WaruSmart</span>
-                        </div>
-                        <h5 class="m-0">Sistema de Sensores IoT</h5>
-                        <p class="mt-2 mb-0 small">Incluye sensores inteligentes de suelo, detectores de temperatura y humedad, y válvulas automatizadas para un riego eficiente.</p>
+                        <a href="https://warusmart.netlify.app/sign-up" class="btn btn-primary mt-1">Comenzar</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Blog End -->
+    <!-- About End -->
 
 
-<!-- Service Start -->
-<div class="container-fluid py-5" id="plans">
-    <div class="container pt-5 pb-3">
-        <div class="text-center mb-3 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Paquetes</h6>
-            <h1>Planes del Sistema de Riego Inteligente</h1>
-            <p class="text-muted">Cada plan incluye dispositivos IoT y acceso a la plataforma WaruSmart para monitoreo y automatización del riego.</p>
-        </div>
-        <div class="row">
-            <!-- Basic Plan -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                    <i class="fa fa-2x fa-leaf text-success mx-auto mb-4"></i>
-                    <h5 class="mb-2">Paquete Básico</h5>
-                    <h4 class="text-success mb-3">$149</h4>
-                    <p class="m-0">
-                        Incluye:<br>
-                        • 1 Sensor de Suelo<br>
-                        • 1 Válvula Inteligente<br>
-                        • Acceso a la App Móvil<br>
-                        • Soporte por 1 Año
-                    </p>
+    <!-- Feature Start -->
+    <div class="container-fluid pb-5">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+                            style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-money-check-alt text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">🌱 Tecnología Accesible</h5>
+                            <p class="m-0">Ofrecemos herramientas de agricultura inteligente a precios accesibles,
+                                asegurando que pequeños y medianos agricultores se beneficien de la innovación.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- Standard Plan -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="service-item bg-light text-center mb-2 py-5 px-4 shadow">
-                    <i class="fa fa-2x fa-water text-success mx-auto mb-4"></i>
-                    <h5 class="mb-2">Paquete Estándar</h5>
-                    <h4 class="text-success mb-3">$399</h4>
-                    <p class="m-0">
-                        Incluye:<br>
-                        • 3 Sensores de Suelo<br>
-                        • 2 Válvulas Inteligentes<br>
-                        • Acceso Web y Móvil<br>
-                        • Soporte por 2 Años
-                    </p>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+                            style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-award text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">⚙️ Rendimiento Confiable</h5>
+                            <p class="m-0">Nuestros sistemas de riego y monitoreo están diseñados para ser duraderos,
+                                eficientes y fáciles de usar en cualquier entorno.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- Premium Plan -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                    <i class="fa fa-2x fa-solar-panel text-success mx-auto mb-4"></i>
-                    <h5 class="mb-2">Paquete Premium</h5>
-                    <h4 class="text-success mb-3">$599</h4>
-                    <p class="m-0">
-                        Incluye:<br>
-                        • 6 Sensores (Suelo, Temperatura, Humedad)<br>
-                        • 4 Controladores Inteligentes + Gateway<br>
-                        • Integración Completa con el Panel Web<br>
-                        • Soporte Remoto por 3 Años
-                    </p>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+                            style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-globe text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">🌍 Alcance Rural</h5>
+                            <p class="m-0">Diseñada para zonas remotas y rurales, nuestra plataforma funciona incluso en
+                                áreas de baja conectividad para empoderar a más comunidades.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Service End -->
+    <!-- Feature End -->
 
 
-<!-- Testimonial Start -->
-<div class="container-fluid py-5" id="testimonials">
-    <div class="container py-5">
-        <div class="text-center mb-3 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonios</h6>
-            <h1>Lo que Dicen Nuestros Agricultores</h1>
-        </div>
-        <div class="owl-carousel testimonial-carousel">
-            <div class="text-center pb-4">
-                <img class="img-fluid mx-auto rounded-circle border border-success" src="../img/image-testimonial-1.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                <div class="testimonial-text bg-white p-4 mt-n5">
-                    <p class="mt-5">WaruSmart me ayudó a reducir el uso de agua en un 30% y mejorar el rendimiento de mis cultivos. Es simple y muy eficaz.</p>
-                    <h5 class="text-truncate">Juan Torres</h5>
-                    <span>Agricultor - Arequipa</span>
-                </div>
+    <!-- Blog Start -->
+    <div class="container-fluid py-5" id="product">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">VIDEOS</h6>
+                <h1>Sobre el Producto</h1>
+                <p class="text-muted">Descubre los componentes del proyecto WaruSmart: desde nuestro sistema de sensores
+                    IoT hasta las aplicaciones móviles y web que lo integran.</p>
             </div>
-            <div class="text-center">
-                <img class="img-fluid mx-auto rounded-circle border border-success" src="../img/image-testimonial-2.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                <div class="testimonial-text bg-white p-4 mt-n5">
-                    <p class="mt-5">Con las alertas móviles y el monitoreo en tiempo real, puedo regar con más precisión y ahorrar tiempo cada día.</p>
-                    <h5 class="text-truncate">María Huamán</h5>
-                    <span>Agricultora - Cusco</span>
-                </div>
-            </div>
-            <div class="text-center">
-                <img class="img-fluid mx-auto rounded-circle border border-success" src="../img/image-testimonial-3.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                <div class="testimonial-text bg-white p-4 mt-n5">
-                    <p class="mt-5">Gracias a WaruSmart, ahora entiendo cómo regar de forma más eficiente y mis plantas están más saludables que nunca.</p>
-                    <h5 class="text-truncate">Pedro Ccama</h5>
-                    <span>Agricultor - Puno</span>
-                </div>
-            </div>
-            <div class="text-center">
-                <img class="img-fluid mx-auto rounded-circle border border-success" src="../img/image-testimonial-4.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                <div class="testimonial-text bg-white p-4 mt-n5">
-                    <p class="mt-5">El sistema fue fácil de instalar y me encanta revisar los datos desde mi celular. Se siente como cultivar con tecnología.</p>
-                    <h5 class="text-truncate">Diego Churata</h5>
-                    <span>Agricultor - Ayacucho</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Testimonial End -->
-
-<!-- Team Start -->
-<div class="container-fluid py-5" id="team">
-    <div class="container pt-5 pb-3">
-        <div class="text-center mb-5 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Equipo</h6>
-            <h1>Conoce al Equipo de WaruSmart</h1>
-        </div>
-        <div class="row justify-content-center">
-            <!-- Miembro del equipo -->
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <div class="team-item bg-white text-center p-4 h-100">
-                    <div class="team-img mb-3">
-                        <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747292553/cjjbxbwuxlokpkfd2x7n.jpg" alt="Fernando Quispe" style="width: 180px; height: 180px; object-fit: cover;">
-                    </div>
-                    <h5 class="text-truncate">Fernando Quispe</h5>
-                    <p class="m-0">Ingeniería de Software - U20221C628</p>
-                    <p class="small mt-2">Posee habilidades técnicas y de liderazgo en desarrollo IoT y colaboración efectiva.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <div class="team-item bg-white text-center p-4 h-100">
-                    <div class="team-img mb-3">
-                        <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747292553/na5h7jijhfxzjgcdzhrr.jpg" alt="Anderson Macedo" style="width: 180px; height: 180px; object-fit: cover;">
-                    </div>
-                    <h5 class="text-truncate">Anderson Macedo</h5>
-                    <p class="m-0">Ingeniería de Software - U20201C179</p>
-                    <p class="small mt-2">Comprometido con el trabajo en equipo y el desarrollo colaborativo, aplicando sus conocimientos al proyecto.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <div class="team-item bg-white text-center p-4 h-100">
-                    <div class="team-img mb-3">
-                        <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747292554/avutl0jmdi4uxom2ndee.jpg" alt="Christopher More" style="width: 180px; height: 180px; object-fit: cover;">
-                    </div>
-                    <h5 class="text-truncate">Christopher More</h5>
-                    <p class="m-0">Ingeniería de Software - U202212199</p>
-                    <p class="small mt-2">Enfocado en aportar con creatividad y dedicación para entregar resultados de calidad.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <div class="team-item bg-white text-center p-4 h-100">
-                    <div class="team-img mb-3">
-                        <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747292553/b1anpky1mylzesfxjdk1.jpg" alt="Jair Velasquez" style="width: 180px; height: 180px; object-fit: cover;">
-                    </div>
-                    <h5 class="text-truncate">Jair Velasquez</h5>
-                    <p class="m-0">Ingeniería de Software - U202218114</p>
-                    <p class="small mt-2">Especialista en TypeScript, Java y desarrollo FullStack, con grandes habilidades para el trabajo en equipo.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <div class="team-item bg-white text-center p-4 h-100">
-                    <div class="team-img mb-3">
-                        <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dydklnicb/image/upload/v1745581562/foto_carlos.jpg" alt="Carlos Pingus" style="width: 180px; height: 180px; object-fit: cover;">
-                    </div>
-                    <h5 class="text-truncate">Carlos Pingus</h5>
-                    <p class="m-0">Ingeniería de Software - U202113280</p>
-                    <p class="small mt-2">Responsable y comprometido, apasionado por la tecnología y el compartir conocimientos.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <div class="team-item bg-white text-center p-4 h-100">
-                    <div class="team-img mb-3">
-                        <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/drkelnilg/image/upload/v1745628789/imagen_2025-04-25_195308443_hzznhf.png" alt="Jeferson Cabrera" style="width: 180px; height: 180px; object-fit: cover;">
-                    </div>
-                    <h5 class="text-truncate">Jeferson Cabrera</h5>
-                    <p class="m-0">Ingeniería de Software - U20211C211</p>
-                    <p class="small mt-2">Con conocimientos en HTML, CSS, JS, C++ y metodologías ágiles. Disfruta del trabajo en equipo para el desarrollo de proyectos.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <div class="team-item bg-white text-center p-4 h-100">
-                    <div class="team-img mb-3">
-                        <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/djia8bsvr/image/upload/v1712333792/Name_pacjmt.jpg" alt="Victor Herrera" style="width: 180px; height: 180px; object-fit: cover;">
-                    </div>
-                    <h5 class="text-truncate">Victor Herrera</h5>
-                    <p class="m-0">Ingeniería de Software - U20201E188</p>
-                    <p class="small mt-2">Apasionado por la tecnología y la ciencia, disfruta aprender y enseñar a lo largo de su trayectoria académica.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Team End -->
-
-<!-- Booking Start -->
-<div class="container-fluid booking mt-5 pb-5">
-    <div class="container pb-5">
-        <div class="bg-light shadow mx-auto" style="padding: 30px; max-width: 800px;">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-md-12">
+            <div class="row pb-3">
+                <!-- Plataforma Web -->
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
                     <div class="blog-item">
                         <div class="position-relative">
-                            <iframe class="img-fluid w-100"
-                                    style="height: 400px;"
-                                    src="https://www.youtube.com/embed/S_ZQc5pirhE"
-                                    title="Team Video"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                            </iframe>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item w-100"
+                                    src="https://www.youtube.com/embed/fYHt7Ylf2pE?start=1" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="blog-date">
+                                <h6 class="font-weight-bold mb-n1">01</h6>
+                                <small class="text-white text-uppercase"></small>
+                            </div>
                         </div>
-                        <div class="bg-white p-4 text-center">
-                            <div class="d-flex justify-content-center mb-2">
+                        <div class="bg-white p-4">
+                            <div class="d-flex mb-2">
                                 <span class="text-primary text-uppercase">WaruSmart</span>
                             </div>
-                            <h5 class="m-0">Video sobre el Equipo</h5>
-                            <p class="mt-2 mb-0 small">
-                                Descubre la historia detrás de WaruSmart. En este video, conoce al equipo apasionado que trabaja para revolucionar el riego y el monitoreo de cultivos mediante tecnología innovadora. Conoce nuestra misión, nuestro trabajo con los agricultores y cómo creamos soluciones que importan.
-                            </p>
+                            <h5 class="m-0">Panel Web de Monitoreo</h5>
+                            <p class="mt-2 mb-0 small">Accede a datos en tiempo real, controla los sistemas de riego de
+                                forma remota y gestiona el cultivo desde nuestra plataforma web intuitiva.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Aplicación Móvil -->
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item w-100"
+                                    src="https://www.youtube.com/embed/fYHt7Ylf2pE?start=197" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="blog-date">
+                                <h6 class="font-weight-bold mb-n1">02</h6>
+                                <small class="text-white text-uppercase"></small>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4">
+                            <div class="d-flex mb-2">
+                                <span class="text-primary text-uppercase">WaruSmart</span>
+                            </div>
+                            <h5 class="m-0">Aplicación Móvil</h5>
+                            <p class="mt-2 mb-0 small">Recibe alertas, consulta datos del suelo y humedad, y controla el
+                                riego desde tu celular — estés donde estés.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sistema de Hardware IoT -->
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item w-100"
+                                    src="https://www.youtube.com/embed/fYHt7Ylf2pE?start=378" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="blog-date">
+                                <h6 class="font-weight-bold mb-n1">03</h6>
+                                <small class="text-white text-uppercase"></small>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4">
+                            <div class="d-flex mb-2">
+                                <span class="text-primary text-uppercase">WaruSmart</span>
+                            </div>
+                            <h5 class="m-0">Sistema de Sensores IoT</h5>
+                            <p class="mt-2 mb-0 small">Incluye sensores inteligentes de suelo, detectores de temperatura
+                                y humedad, y válvulas automatizadas para un riego eficiente.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Booking End -->
-
-<div style="display: flex; justify-content: center; margin-top: 1rem;">
-    <a href="https://warusmart.netlify.app/sign-up" class="btn btn-primary">Registrate</a>
-</div>
+    <!-- Blog End -->
 
 
-<!-- Footer Start -->
-<div class="container-fluid bg-dark text-white-50 py-3 px-sm-3 px-lg-5" style="margin-top: 90px;">
-    <div class="row pt-3 align-items-center">
-
-        <!-- WARUSMART logo on the left -->
-        <div class="col-lg-4 col-md-4 mb-3">
-            <a href="" class="navbar-brand">
-                <h1 class="text-primary"><span class="text-white">WARU</span>SMART</h1>
-            </a>
-        </div>
-
-        <!-- Centered Farmer text -->
-        <div class="col-lg-4 col-md-4 mb-3 text-center">
-            <h5 class="text-white text-uppercase mb-2" style="letter-spacing: 5px;">Agricultor</h5>
-            <h5 class="text-white text-uppercase mb-2" style="letter-spacing: 5px;">Cooperativa de agricultores</h5>
-        </div>
-
-        <!-- Codex text aligned to the right -->
-        <div class="col-lg-4 col-md-4 mb-3 text-right">
-            <h5 class="text-white text-uppercase mb-2" style="letter-spacing: 5px;">CODEX</h5>
+    <!-- Service Start -->
+    <div class="container-fluid py-5" id="plans">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Paquetes</h6>
+                <h1>Planes del Sistema de Riego Inteligente</h1>
+                <p class="text-muted">Cada plan incluye dispositivos IoT y acceso a la plataforma WaruSmart para
+                    monitoreo y automatización del riego.</p>
+            </div>
+            <div class="row">
+                <!-- Basic Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-leaf text-success mx-auto mb-4"></i>
+                        <h5 class="mb-2">Paquete Básico</h5>
+                        <h4 class="text-success mb-3">$149</h4>
+                        <p class="m-0">
+                            Incluye:<br>
+                            • 1 Sensor de Suelo<br>
+                            • 1 Válvula Inteligente<br>
+                            • Acceso a la App Móvil<br>
+                            • Soporte por 1 Año
+                        </p>
+                    </div>
+                </div>
+                <!-- Standard Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-light text-center mb-2 py-5 px-4 shadow">
+                        <i class="fa fa-2x fa-water text-success mx-auto mb-4"></i>
+                        <h5 class="mb-2">Paquete Estándar</h5>
+                        <h4 class="text-success mb-3">$399</h4>
+                        <p class="m-0">
+                            Incluye:<br>
+                            • 3 Sensores de Suelo<br>
+                            • 2 Válvulas Inteligentes<br>
+                            • Acceso Web y Móvil<br>
+                            • Soporte por 2 Años
+                        </p>
+                    </div>
+                </div>
+                <!-- Premium Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-solar-panel text-success mx-auto mb-4"></i>
+                        <h5 class="mb-2">Paquete Premium</h5>
+                        <h4 class="text-success mb-3">$599</h4>
+                        <p class="m-0">
+                            Incluye:<br>
+                            • 6 Sensores (Suelo, Temperatura, Humedad)<br>
+                            • 4 Controladores Inteligentes + Gateway<br>
+                            • Integración Completa con el Panel Web<br>
+                            • Soporte Remoto por 3 Años
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+    <!-- Service End -->
 
-<!-- Footer Bottom -->
-<div class="container-fluid bg-dark text-white border-top py-2 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-    <div class="row">
-        <div class="col-lg-6 text-center text-md-left mb-2 mb-md-0">
-            <p class="m-0 text-white-50">&copy; 2025 <a href="#">WaruSmart</a>. Todos los derechos reservados.</p>
-        </div>
-        <div class="col-lg-6 text-center text-md-right">
-            <p class="m-0 text-white-50">Diseñado por el equipo WaruSmart</p>
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="testimonials">
+        <div class="container py-5">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonios</h6>
+                <h1>Lo que Dicen Nuestros Agricultores</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="text-center pb-4">
+                    <img class="img-fluid mx-auto rounded-circle border border-success"
+                        src="../img/image-testimonial-1.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">WaruSmart me ayudó a reducir el uso de agua en un 30% y mejorar el rendimiento
+                            de mis cultivos. Es simple y muy eficaz.</p>
+                        <h5 class="text-truncate">Juan Torres</h5>
+                        <span>Agricultor - Arequipa</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto rounded-circle border border-success"
+                        src="../img/image-testimonial-2.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Con las alertas móviles y el monitoreo en tiempo real, puedo regar con más
+                            precisión y ahorrar tiempo cada día.</p>
+                        <h5 class="text-truncate">María Huamán</h5>
+                        <span>Agricultora - Cusco</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto rounded-circle border border-success"
+                        src="../img/image-testimonial-3.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Gracias a WaruSmart, ahora entiendo cómo regar de forma más eficiente y mis
+                            plantas están más saludables que nunca.</p>
+                        <h5 class="text-truncate">Pedro Ccama</h5>
+                        <span>Agricultor - Puno</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto rounded-circle border border-success"
+                        src="../img/image-testimonial-4.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">El sistema fue fácil de instalar y me encanta revisar los datos desde mi
+                            celular. Se siente como cultivar con tecnología.</p>
+                        <h5 class="text-truncate">Diego Churata</h5>
+                        <span>Agricultor - Ayacucho</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<!-- Footer End -->
+    <!-- Testimonial End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5" id="team">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-5 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Equipo</h6>
+                <h1>Conoce al Equipo de WaruSmart</h1>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Miembro del equipo -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success"
+                                src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747292553/cjjbxbwuxlokpkfd2x7n.jpg"
+                                alt="Fernando Quispe" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Fernando Quispe</h5>
+                        <p class="m-0">Ingeniería de Software - U20221C628</p>
+                        <p class="small mt-2">Posee habilidades técnicas y de liderazgo en desarrollo IoT y colaboración
+                            efectiva.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success"
+                                src="https://res.cloudinary.com/dydklnicb/image/upload/v1745581562/foto_carlos.jpg"
+                                alt="Carlos Pingus" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Carlos Pingus</h5>
+                        <p class="m-0">Ingeniería de Software - U202113280</p>
+                        <p class="small mt-2">Responsable y comprometido, apasionado por la tecnología y el compartir
+                            conocimientos.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success"
+                                src="https://res.cloudinary.com/drkelnilg/image/upload/v1745628789/imagen_2025-04-25_195308443_hzznhf.png"
+                                alt="Jeferson Cabrera" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Jeferson Cabrera</h5>
+                        <p class="m-0">Ingeniería de Software - U20211C211</p>
+                        <p class="small mt-2">Con conocimientos en HTML, CSS, JS, C++ y metodologías ágiles. Disfruta
+                            del trabajo en equipo para el desarrollo de proyectos.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success"
+                                src="https://res.cloudinary.com/djia8bsvr/image/upload/v1712333792/Name_pacjmt.jpg"
+                                alt="Victor Herrera" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Victor Herrera</h5>
+                        <p class="m-0">Ingeniería de Software - U20201E188</p>
+                        <p class="small mt-2">Apasionado por la tecnología y la ciencia, disfruta aprender y enseñar a
+                            lo largo de su trayectoria académica.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success"
+                                src="../localimages/FotoPassport.jpg"
+                                alt="Paolo Guillen" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Paolo Guillen</h5>
+                        <p class="m-0">Ingeniería de Software - U202124343</p>
+                        <p class="small mt-2">Especializado en C#, Azure, React, Angular, Vue  y desarrollo FullStack, con grandes
+                            habilidades para el trabajo en equipo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Booking Start -->
+    <div class="container-fluid booking mt-5 pb-5">
+        <div class="container pb-5">
+            <div class="bg-light shadow mx-auto" style="padding: 30px; max-width: 800px;">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-12">
+                        <div class="blog-item">
+                            <div class="position-relative">
+                            </div>
+                            <div class="bg-white p-4 text-center">
+                                <div class="d-flex justify-content-center mb-2">
+                                    <span class="text-primary text-uppercase">WaruSmart</span>
+                                </div>
+                                <h5 class="m-0">Video sobre el Equipo</h5>
+                                <p class="mt-2 mb-0 small">
+                                    Descubre la historia detrás de WaruSmart. En este video, conoce al equipo apasionado
+                                    que trabaja para revolucionar el riego y el monitoreo de cultivos mediante
+                                    tecnología innovadora. Conoce nuestra misión, nuestro trabajo con los agricultores y
+                                    cómo creamos soluciones que importan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+
+    <div style="display: flex; justify-content: center; margin-top: 1rem;">
+        <a href="https://warusmart.netlify.app/sign-up" class="btn btn-primary">Registrate</a>
+    </div>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 py-3 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-3 align-items-center">
+
+            <!-- WARUSMART logo on the left -->
+            <div class="col-lg-4 col-md-4 mb-3">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary"><span class="text-white">WARU</span>SMART</h1>
+                </a>
+            </div>
+
+            <!-- Centered Farmer text -->
+            <div class="col-lg-4 col-md-4 mb-3 text-center">
+                <h5 class="text-white text-uppercase mb-2" style="letter-spacing: 5px;">Agricultor</h5>
+                <h5 class="text-white text-uppercase mb-2" style="letter-spacing: 5px;">Cooperativa de agricultores</h5>
+            </div>
+
+            <!-- Codex text aligned to the right -->
+            <div class="col-lg-4 col-md-4 mb-3 text-right">
+                <h5 class="text-white text-uppercase mb-2" style="letter-spacing: 5px;">CODEX</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="container-fluid bg-dark text-white border-top py-2 px-sm-3 px-md-5"
+        style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-6 text-center text-md-left mb-2 mb-md-0">
+                <p class="m-0 text-white-50">&copy; 2025 <a href="#">WaruSmart</a>. Todos los derechos reservados.</p>
+            </div>
+            <div class="col-lg-6 text-center text-md-right">
+                <p class="m-0 text-white-50">Diseñado por el equipo WaruSmart</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
 
 
 
 
-<!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
-<!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-<script src="../lib/easing/easing.min.js"></script>
-<script src="../lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="../lib/tempusdominus/js/moment.min.js"></script>
-<script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
-<script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-<!-- Template Javascript -->
-<script src="../js/main.js"></script>
-<script>
-    const button = document.getElementById('language-toggle');
-    const label = document.getElementById('lang-label');
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+    <script>
+        const button = document.getElementById('language-toggle');
+        const label = document.getElementById('lang-label');
 
-    const isSpanish = window.location.pathname.includes('index-es.html');
-    label.textContent = isSpanish ? 'English' : 'Español';
+        const isSpanish = window.location.pathname.includes('index-es.html');
+        label.textContent = isSpanish ? 'English' : 'Español';
 
-    button.addEventListener('click', () => {
-        if (isSpanish) {
-            window.location.href = '../index.html';
-        } else {
-            window.location.href = 'index-es.html';
-        }
-    });
-</script>
-<script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({ behavior: 'smooth' });
+        button.addEventListener('click', () => {
+            if (isSpanish) {
+                window.location.href = '../index.html';
+            } else {
+                window.location.href = 'index-es.html';
             }
         });
-    });
-</script>
+    </script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
